@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" />
+    </header>
+    <form>
+      <!-- Gender -->
+      <p>You are a...</p>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label><br/>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+
+      <!-- Interests -->
+      <p>Who is interested in...</p>
+      <input type="checkbox" id="web" />
+      <label for="web">Web development</label><br/>
+      <input type="checkbox" id="photoshop" />
+      <label for="photoshop">Photoshop</label><br/>
+      <input type="checkbox" id="madona" />
+      <label for="madona">Singing Madona Songs</label>
+
+      <!-- Contact details -->
+      <fieldset>
+        <legend>Contact Info</legend>
+        <input type="email" placeholder="Email" required />
+        <span class="tick"></span>
+        <input type="telephone" placeholder="Phone number" required />
+        <span class="tick"></span>
+      </fieldset>
+      <!-- Preferred -->
+      <p>How would you like to be contacted?</p>
+      <select>
+        <option>By email</option>
+        <option>By telephone</option>
+      </select>
+      <input type="submit" value="Become a Ninja" />
+    </form>
+  </body>
+</html>

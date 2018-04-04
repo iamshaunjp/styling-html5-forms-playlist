@@ -30,6 +30,16 @@ input[type="radio"] {
     margin: 0;
 }
 
+label[for='male'], label[for='female'] {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-left: 26px;
+    background: url('img/checks.png') no-repeat;
+    background-position: 0 -32;
+    line-height: 24px;
+    
+}
+
 /* 3 - CHECKBOX STYLES  */
 
 

@@ -137,5 +137,16 @@ input[type='submit']{
 }
 /* 6 - INPUT VALIDATION STYLES */
 
+input[type='email']:valid,
+input[type='telephone']:valid{
+    border: 2px solid #fff;
+    
+}
 
+input[type='email']:valid{
+    background-position: 7px -22px;
+}
 
+input[type='telephone']:valid{
+    background-position: 7px -97px;
+}

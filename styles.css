@@ -66,6 +66,14 @@ label[for='web'], label[for='photoshop'], label[for='madona']{
     cursor: pointer;
 }
 
+
+input:checked + label[for='web'],
+input:checked + label[for='photoshop'],
+input:checked + label[for='madona']{
+    background-position: 0 -65px;
+    color: #ce1010;
+}
+
 /* 4 - TEXT INPUT STYLES & FIELDSETS */
 
 

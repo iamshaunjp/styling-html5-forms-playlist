@@ -1,5 +1,26 @@
 /* 1 - BASE FORM STYLES */
 
+body {
+    background: #141414;
+    margin: 0px;
+    font-family: arial;
+}
+
+header {
+    background: 0d0d0d;
+    padding: 20px;
+    text-align: center;
+}
+
+form{
+    margin: 20px;
+    color: #eee;
+}
+
+form p {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
 
 /* 3 - CHECKBOX STYLES  */
 

@@ -142,7 +142,6 @@ input[type='submit']{
 input[type='email']:valid,
 input[type='telephone']:valid{
     border: 2px solid #fff;
-    
 }
 
 input[type='email']:valid{
@@ -162,5 +161,4 @@ input[type='telephone']:valid + .tick{
     height: 20px;
     float: left;
     margin: 10px;
-    
 }

@@ -76,6 +76,38 @@ input:checked + label[for='madona']{
 
 /* 4 - TEXT INPUT STYLES & FIELDSETS */
 
+fieldset{
+    padding: 20px;
+    margin: 20px 0px;
+    border: 3px soild #222;
+}
+
+legend{
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+input[type='email'], 
+input[type='telephone']{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 50px;
+    border: 0px;
+    border-radius: 4px;
+    background: url(img/inputs.png) no-repeat;
+    background-color: #222;
+    font-size: 16px;
+    color: #fff;
+}
+
+input[type='email']{
+    background-position: 7px 8px; 
+}
+
+input[type='telephone']{
+    background-position: 7px -58px; 
+}
 
 /* 5 - SELECT BOXES */
 

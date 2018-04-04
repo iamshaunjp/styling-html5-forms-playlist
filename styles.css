@@ -37,11 +37,34 @@ label[for='male'], label[for='female'] {
     background: url('img/checks.png') no-repeat;
     background-position: 0 -32;
     line-height: 24px;
+    cursor:pointer;
     
+}
+
+input:checked + label[for='male'],
+input:checked + label[for='female']{
+    background-position: 0 0;
+    color: #ce1010;
 }
 
 /* 3 - CHECKBOX STYLES  */
 
+
+input[type='checkbox']{
+    opacity:0;
+    width: 0;
+    margin: 0;
+}
+
+label[for='web'], label[for='photoshop'], label[for='madona']{
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 26px;
+    background: url('img/checks.png') no-repeat;
+    background-position: 0 -98px;
+    line-height: 24px;
+    cursor: pointer;
+}
 
 /* 4 - TEXT INPUT STYLES & FIELDSETS */
 

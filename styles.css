@@ -99,6 +99,8 @@ input[type='telephone']{
     background-color: #222;
     font-size: 16px;
     color: #fff;
+    float: left;
+    clear: both;
 }
 
 input[type='email']{
@@ -149,4 +151,16 @@ input[type='email']:valid{
 
 input[type='telephone']:valid{
     background-position: 7px -97px;
+}
+
+
+input[type='email']:valid + .tick,
+input[type='telephone']:valid + .tick{
+    background: url('img/tick.png') center;
+    background-size: 100% ;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 10px;
+    
 }

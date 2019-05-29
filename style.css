@@ -1,0 +1,52 @@
+/*Base form Style*/
+body{
+  background: #141414;
+  margin: 0;
+  font-family: arial;
+}
+header{
+  background: #0d0d0d;
+  padding: 20px;
+  text-align: center;
+}
+form{
+  margin: 20px;
+  color: #eee;
+}
+form p{
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+input[type="radio"]{
+  opacity: 0;
+  width: 0;
+  margin: 0;
+}
+label[for="male"] , label[for="female"]{
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-left: 20px;
+  background: url("img/checks.png") no-repeat;
+  background-position: 0 -32px;
+  line-height: 32px;
+}
+input:checked +label[for="male"],
+  input:checked +label[for="female"]{
+     background-position: 0 0;
+     color: #ce1010;
+  }
+
+  /*checkbox*/
+  input[type="checkbox"]{
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+
+  }
+label[for="web"] , label[for="photoshop"], label[for="madona"]{
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 26px;
+    background: url("img/checks.png");
+    background-position: 0 -96px;
+}
